@@ -9,7 +9,7 @@ phases:
       - mvn package -Dmaven-test-skip
   post_build:
     commands:
-      - echo Build completed on `data`
+      - echo Build completed on `date`
 artifacts:
   files:
     - target/*.jar
